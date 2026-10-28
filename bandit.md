@@ -14,3 +14,12 @@
 
 &#x20; cat readme
 
+
+
+\## Level 1 -> Level 2
+\* \*\*Concept:\*\* Password Located in file called -
+\* \*\* Commands Used: \*\*
+```bash
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+cat ./-
+
