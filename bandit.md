@@ -31,3 +31,12 @@ cat ./-
 ssh bandit2@bandit.labs.overthewire.org -p 2220
 cat -- "--spaces in this filename--"
 
+\## Level 3 -> Level 4
+\* \*\*Concept\*\* Password stored in hidden file
+\* \*\* Commands Used: \*\*
+```bash
+ssh bandit3@bandit.labs.overthewire.org -p 2220
+cd inhere
+ls -a
+cat ...Hiding-From-You
+
