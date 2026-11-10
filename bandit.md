@@ -40,3 +40,15 @@ cd inhere
 ls -a
 cat ...Hiding-From-You
 
+\## Level 4 -> Level 5
+\* \*\*Concept\*\* password for the next level is stored in the only human-readable file in the inhere directory
+\* \*\* Commands Used: \*\*
+```bash
+ssh bandit4@bandit.labs.overthewire.org -p 2220
+cd inhere
+ls
+file ./*    (See for ASCII File)
+cat ./-file07
+
+
+
