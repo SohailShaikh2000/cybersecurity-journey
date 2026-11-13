@@ -16,20 +16,19 @@
 
 
 
-\## Level 1 -> Level 2
-\* \*\*Concept:\*\* Password Located in file called -
-\* \*\* Commands Used: \*\*
+## Level 1 -> Level 2
+* **Concept:** Password Located in file called -
+* ** Commands Used: **
 ```bash
 ssh bandit1@bandit.labs.overthewire.org -p 2220
-cat ./-
-
+cat ./-```
 
 ## Level 2 -> Level 3
 * **Concept** Password stored in a file called --spaces in this filename--
 * ** Commands Used:**
 ```bash
 ssh bandit2@bandit.labs.overthewire.org -p 2220
-cat -- "--spaces in this filename--"
+cat -- "--spaces in this filename--"```
 
 \## Level 3 -> Level 4
 \* \*\*Concept\*\* Password stored in hidden file
