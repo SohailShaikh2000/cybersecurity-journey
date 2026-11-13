@@ -59,5 +59,5 @@ ssh bandit5@bandit.labs.overthewire.org -p 2220
 cd inhere
 ls
 find . -size 1033c ! -executable
-cat #path to found file
+cat #path/to/found/file
 ```
