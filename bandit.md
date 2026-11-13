@@ -24,7 +24,7 @@ ssh bandit1@bandit.labs.overthewire.org -p 2220
 cat ./-
 
 
-\## Level 2 => Level 3
+\## Level 2 -> Level 3
 \* \*\*Concept\*\* Password stored in a file called --spaces in this filename--
 \* \*\* Commands Used: \*\*
 ```bash
@@ -41,6 +41,16 @@ ls -a
 cat ...Hiding-From-You
 
 \## Level 4 -> Level 5
+\* \*\*Concept\*\* password for the next level is stored in the only human-readable file in the inhere directory
+\* \*\* Commands Used: \*\*
+```bash
+ssh bandit4@bandit.labs.overthewire.org -p 2220
+cd inhere
+ls
+file ./*    (See for ASCII File)
+cat ./-file07
+
+\## Level 5 -> Level 6
 \* \*\*Concept\*\* password for the next level is stored in the only human-readable file in the inhere directory
 \* \*\* Commands Used: \*\*
 ```bash
