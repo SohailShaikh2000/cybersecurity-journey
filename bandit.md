@@ -56,5 +56,8 @@ cat ./-file07
 * **Commands Used:**
 ```bash
 ssh bandit5@bandit.labs.overthewire.org -p 2220
-# Paste your Level 5 commands here
+cd inhere
+ls
+find . -size 1033c ! -executable
+cat #path to found file
 ```
